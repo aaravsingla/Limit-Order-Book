@@ -1,5 +1,7 @@
 # Limit Order Book
 
+**Author:** Aarav Singla
+
 This Limit Order Book is developed in `C++` from scratch and able to handle over 1,400,000 TPS (transactions per second), including Market, Limit, Stop and Stop Limit orders. 
 
 Performance testing of the order book was also quite a challenging task as it required getting order data for testing, performing the testing to collect latency statistics, and finally analysing and visualising the collected data. All functionality testing was completed thorough a set of unit tests and integration tests using `GoogleTest`.
